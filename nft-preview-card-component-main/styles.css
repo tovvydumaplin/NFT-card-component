@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0d1a2d;
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  background-color: #15273f;
+  width: 300px;
+  height: 490px;
+  margin: auto;
+  margin-top: 239.5px;
+  border-radius: 15px;
+  padding: 20px;
+  position: relative;
+}
+
+.image-equi {
+  width: 100%;
+  height: auto;
+  border-radius: 7px;
+  margin-bottom: 15px;
+}
+/* Image overlay hover Transparent */
+.image-overlay {
+  width: 260px;
+  height: 260px;
+  background-color: rgba(1, 134, 203, 0.3);
+  position: absolute;
+  margin-top: 20px;
+  top: 0;
+  transition: opacity 0.4s ease-in-out;
+  opacity: 0;
+  border-radius: 7px;
+}
+
+.image-overlay:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.image-eye {
+  width: 50px;
+  height: auto;
+  border-radius: 7px;
+  margin-bottom: 15px;
+  position: absolute;
+  top: 115px;
+  left: 105px;
+}
+/* up to here */
+.image-title,
+.captions {
+  margin-bottom: 12px;
+}
+
+.image-title {
+  font-size: 18px;
+  /* transition: opacity 0.4s ease-in-out; */
+}
+
+.image-title:hover {
+  color: #7986cb;
+  cursor: pointer;
+  /* opacity: 1; */
+}
+
+.captions {
+  color: #607090;
+}
+
+.eth-value {
+  color: #7986cb;
+  font-weight: bold;
+  font-size: 13px;
+  margin-left: 2px;
+}
+
+.image-eth {
+  width: auto;
+  height: 18px;
+}
+.image-clock {
+  width: auto;
+  height: 18px;
+}
+
+.days-left {
+  color: #607090;
+  font-weight: bold;
+  font-size: 13px;
+  margin-left: 5px;
+}
+
+.flex-eth {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.items-1 {
+  display: flex;
+  align-items: center;
+}
+
+.eth-value {
+  flex: 0 1 auto;
+}
+.image-eth {
+  flex: 0 1 auto;
+}
+.items-2 {
+  display: flex;
+  align-items: center;
+}
+
+.image-clock {
+  flex: 0 0 auto;
+}
+.days-left {
+  flex: 0 0 auto;
+}
+
+.image-creation {
+  width: 25px;
+  height: auto;
+  border: 1px solid white;
+  border-radius: 100%;
+  float: left;
+  margin-right: 13px;
+}
+
+.creation {
+  color: #607090;
+  font-weight: bold;
+}
+
+.creation-name {
+  font-weight: bold;
+  color: #99a9ba;
+  font-size: 14px;
+}
+
+.creation-name:hover {
+  color: #7986cb;
+  cursor: pointer;
+}
+
+.line {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  border: none;
+  border-top: 1px solid #1f3149;
+}
